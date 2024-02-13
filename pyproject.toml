@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ecom-backend"
+version = "0.1.0"
+description = ""
+authors = ["aryant <aryant@unl.global>"]
+readme = "README.md"
+packages = [{include = "ecom_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0.post1"
+pydantic-settings = "^2.1.0"
+motor = "^3.3.2"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
